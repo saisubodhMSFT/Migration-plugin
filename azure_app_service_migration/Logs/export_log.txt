@@ -1,0 +1,164 @@
+Azure App Service Migration IMPORT Logs
+
+[2023-08-17 04:48:14] EXPORT Information AASM_LOG: [2023-08-17 04:48:14]: EXPORT Started with the export process.
+
+[2023-08-17 04:48:14] EXPORT Information AASM_LOG: [2023-08-17 04:48:14]: EXPORT Deleting the previously generated exported file.
+
+[2023-08-17 04:48:14] EXPORT Information AASM_LOG: [2023-08-17 04:48:14]: EXPORT Zip file name is generated as: 
+
+[2023-08-17 04:48:14] EXPORT Information AASM_LOG: [2023-08-17 04:48:14]: EXPORT Zip file path is: /home/site/wwwroot/wp-content/plugins/azure_app_service_migration/ExportedFile/wptestapp001.azurewebsites.net_2023-08-17_04-48-14.zip
+
+[2023-08-17 04:48:26] EXPORT Information AASM_LOG: [2023-08-17 04:48:26]: EXPORT Zip file path is: /home/site/wwwroot/wp-content/plugins/azure_app_service_migration/ExportedFile/wptestapp001.azurewebsites.net_2023-08-17_04-48-14.zip
+
+[2023-08-17 04:48:26] EXPORT Information AASM_LOG: [2023-08-17 04:48:26]: EXPORT Started generating the ZipArchive for 
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Zip file path is: /home/site/wwwroot/wp-content/plugins/azure_app_service_migration/ExportedFile/wptestapp001.azurewebsites.net_2023-08-17_04-48-14.zip
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Started generating the ZipArchive for 
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_activity-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_activity - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_activity_meta-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_activity_meta - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_invitations-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_invitations - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_notifications-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_notifications - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_notifications_meta-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_notifications_meta - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_optouts-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_optouts - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_xprofile_data-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_xprofile_data - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_xprofile_fields-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_xprofile_fields - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_xprofile_groups-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_xprofile_groups - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_bp_xprofile_meta-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_bp_xprofile_meta - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_commentmeta-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_commentmeta - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_comments-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_comments - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_e_events-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_e_events - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_links-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_links - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_options-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_options - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_postmeta-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_postmeta - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_posts-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_posts - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_signups-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_signups - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_term_relationships-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_term_relationships - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_term_taxonomy-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_term_taxonomy - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_termmeta-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_termmeta - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_terms-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_terms - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_usermeta-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_usermeta - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_users-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_users - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_yoast_indexable-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_yoast_indexable - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_yoast_indexable_hierarchy-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_yoast_indexable_hierarchy - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_yoast_migrations-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_yoast_migrations - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_yoast_primary_term-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_yoast_primary_term - completed
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table : wp_yoast_seo_links-started
+
+[2023-08-17 04:48:29] EXPORT Information AASM_LOG: [2023-08-17 04:48:29]: EXPORT Exporting Records for table: wp_yoast_seo_links - completed
+
+[2023-08-17 04:48:32] EXPORT Information AASM_LOG: [2023-08-17 04:48:32]: EXPORT Zip file path is: /home/site/wwwroot/wp-content/plugins/azure_app_service_migration/ExportedFile/wptestapp001.azurewebsites.net_2023-08-17_04-48-14.zip
+
+[2023-08-17 04:48:32] EXPORT Information AASM_LOG: [2023-08-17 04:48:32]: EXPORT Started generating the ZipArchive for 
+
+[2023-08-17 04:48:57] EXPORT Information AASM_LOG: [2023-08-17 04:48:57]: EXPORT Zip file path is: /home/site/wwwroot/wp-content/plugins/azure_app_service_migration/ExportedFile/wptestapp001.azurewebsites.net_2023-08-17_04-48-14.zip
+
+[2023-08-17 04:48:57] EXPORT Information AASM_LOG: [2023-08-17 04:48:57]: EXPORT Started generating the ZipArchive for 
+
+[2023-08-17 04:49:25] EXPORT Information AASM_LOG: [2023-08-17 04:49:25]: EXPORT Zip file path is: /home/site/wwwroot/wp-content/plugins/azure_app_service_migration/ExportedFile/wptestapp001.azurewebsites.net_2023-08-17_04-48-14.zip
+
+[2023-08-17 04:49:25] EXPORT Information AASM_LOG: [2023-08-17 04:49:25]: EXPORT Started generating the ZipArchive for 
+
+[2023-08-17 04:49:49] EXPORT Information AASM_LOG: [2023-08-17 04:49:49]: EXPORT Zip file path is: /home/site/wwwroot/wp-content/plugins/azure_app_service_migration/ExportedFile/wptestapp001.azurewebsites.net_2023-08-17_04-48-14.zip
+
+[2023-08-17 04:49:49] EXPORT Information AASM_LOG: [2023-08-17 04:49:49]: EXPORT Started generating the ZipArchive for 
+
+[2023-08-17 04:50:17] EXPORT Information AASM_LOG: [2023-08-17 04:50:17]: EXPORT Zip file path is: /home/site/wwwroot/wp-content/plugins/azure_app_service_migration/ExportedFile/wptestapp001.azurewebsites.net_2023-08-17_04-48-14.zip
+
+[2023-08-17 04:50:17] EXPORT Information AASM_LOG: [2023-08-17 04:50:17]: EXPORT Started generating the ZipArchive for 
+
+[2023-08-17 04:50:45] EXPORT Information AASM_LOG: [2023-08-17 04:50:45]: EXPORT Zip file path is: /home/site/wwwroot/wp-content/plugins/azure_app_service_migration/ExportedFile/wptestapp001.azurewebsites.net_2023-08-17_04-48-14.zip
+
+[2023-08-17 04:50:45] EXPORT Information AASM_LOG: [2023-08-17 04:50:45]: EXPORT Started generating the ZipArchive for 
+
+[2023-08-17 04:51:01] EXPORT Information AASM_LOG: [2023-08-17 04:51:01]: EXPORT Zip Archive closed successfully.
+
+[2023-08-17 04:51:01] EXPORT Information AASM_LOG: [2023-08-17 04:51:01]: EXPORT Content is exported and Ready to download
+
+[2023-08-17 04:51:01] EXPORT Information AASM_LOG: [2023-08-17 04:51:01]: EXPORT Export successfully completed.
+

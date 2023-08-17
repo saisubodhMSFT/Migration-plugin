@@ -1,0 +1,21 @@
+{
+    "name": "azure/azure_app_service_migration",
+    "autoload": {
+        "psr-4": {
+            "Azure\\AzureAppServiceMigration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "saisubodhMSFT",
+            "email": "saisubodh@microsoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "microsoft/azure-storage-blob": "*",
+        "microsoft/azure-storage-table": "*",
+        "microsoft/azure-storage-queue": "*",
+        "microsoft/azure-storage-file": "*"
+    }
+}
