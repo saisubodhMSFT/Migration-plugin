@@ -27,13 +27,9 @@ class Azure_app_service_migration_Export {
 		
 		// First time functions executed here
 		if ( isset($params['is_first_request']) && $params['is_first_request']) {
-			file_put_contents('/home/d.txt', 'starting export' . PHP_EOL);
-			// delete existing log file
-			Azure_app_service_migration_Custom_Logger::delete_log_file(AASM_EXPORT_SERVICE_TYPE);
-			
 			// initalize import log file
+			Azure_app_service_migration_Custom_Logger::delete_log_file(AASM_EXPORT_SERVICE_TYPE);			
 			Azure_app_service_migration_Custom_Logger::init(AASM_EXPORT_SERVICE_TYPE);
-			
 			Azure_app_service_migration_Custom_Logger::logInfo(AASM_EXPORT_SERVICE_TYPE, 'Started with the export process.');
 			
 			$params['password'] = isset($_REQUEST['confpassword']) ? $_REQUEST['confpassword'] : "";
@@ -43,19 +39,20 @@ class Azure_app_service_migration_Export {
 			$params['dontexptmustuseplugins'] = isset($_REQUEST['dontexptmustuseplugs']) ? $_REQUEST['dontexptmustuseplugs'] : "";
 			$params['dontexptplugins'] = isset($_REQUEST['dontexptplugins']) ? $_REQUEST['dontexptplugins'] : "";
 			$params['dontdbsql'] = isset($_REQUEST['donotdbsql']) ? $_REQUEST['donotdbsql'] : "";
-			
-			
+
 			// delete enumerate csv file
 			if (file_exists(AASM_EXPORT_ENUMERATE_FILE)) {
+				Azure_app_service_migration_Custom_Logger::logInfo(AASM_EXPORT_SERVICE_TYPE, 'Deleting the previously generated enumerate csv file.');
 				unlink(AASM_EXPORT_ENUMERATE_FILE);
 			}
 
-Azure_app_service_migration_Custom_Logger::logInfo(AASM_EXPORT_SERVICE_TYPE, 'Deleting the previously generated exported file.');
+			Azure_app_service_migration_Custom_Logger::logInfo(AASM_EXPORT_SERVICE_TYPE, 'Deleting the previously generated exported file.');
 			Azure_app_service_migration_Export_FileBackupHandler::deleteExistingZipFiles();
 
-// generate zip file name
+			// generate zip file name
 			$params['zip_file_name'] = Azure_app_service_migration_Export_FileBackupHandler::generateZipFileName();
 			Azure_app_service_migration_Custom_Logger::logInfo(AASM_EXPORT_SERVICE_TYPE, 'Zip file name is generated as: ' . $zipFileName);
+			
 			// clear is_first_request param
 			unset($params['is_first_request']);
 		}
@@ -65,12 +62,10 @@ Azure_app_service_migration_Custom_Logger::logInfo(AASM_EXPORT_SERVICE_TYPE, 'De
 		// Loop over filters
 		if ( ( $filters = AASM_Common_Utils::get_filter_callbacks( 'aasm_export' ) ) ) {
 			while ( $hooks = current( $filters ) ) {
-				file_put_contents('/home/d.txt', 'hook priority is ' . key($filters) . PHP_EOL, FILE_APPEND);
 				if ( intval( $params['priority'] ) === key( $filters ) ) {
 					foreach ( $hooks as $hook ) {
 						try {
 							// Run function hook
-							file_put_contents('/home/d.txt', 'RUNNING HOOOK ' . $hook['function'] . PHP_EOL, FILE_APPEND);
 							$params = call_user_func_array( $hook['function'], array( $params ) );
 						} catch ( Exception $e ) {
 							Azure_app_service_migration_Custom_Logger::handleException($e);
@@ -80,12 +75,10 @@ Azure_app_service_migration_Custom_Logger::logInfo(AASM_EXPORT_SERVICE_TYPE, 'De
 
 					// exit after export process is completed
 					if ($params['completed']) {
-						file_put_contents('/home/d.txt', 'export completed' . PHP_EOL, FILE_APPEND);
 						Azure_app_service_migration_Custom_Logger::logInfo(AASM_EXPORT_SERVICE_TYPE, 'Export successfully completed.', true);
 						exit;
 					}
 
-					file_put_contents('/home/d.txt', 'Making async http call' . PHP_EOL, FILE_APPEND);
 					$response = wp_remote_post(                                                                                                        
 						admin_url( 'admin-ajax.php?action=export' ) ,
 						array(                                               

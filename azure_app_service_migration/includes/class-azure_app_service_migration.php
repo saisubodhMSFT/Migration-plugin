@@ -140,9 +140,9 @@ class Azure_app_service_migration
         require_once plugin_dir_path(dirname(__FILE__)) . 'admin/engines/export/class-azure_app_service_migration-export-filebackup-handler.php';
 
         /**
-        +        * The class responsible for calling all actions for Import.
-        +        */
-        +require_once plugin_dir_path(dirname(__FILE__)) . 'admin/engines/class-azure_app_service_migration-import-controller.php';
+                * The class responsible for calling all actions for Import.
+                */
+        require_once plugin_dir_path(dirname(__FILE__)) . 'admin/engines/class-azure_app_service_migration-import-controller.php';
 
         /**
         +        * The class responsible for calling all actions for Export.
